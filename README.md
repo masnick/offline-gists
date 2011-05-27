@@ -10,6 +10,7 @@ offline copies (i.e. backups) of [gists](https://gist.github.com/).
 
 * Ruby 1.9.2
 * Rubygems
+  * `bundler` gem
   * `git` gem
   * `psych` gem
 
@@ -19,6 +20,7 @@ Google will help you get Ruby and Rubygems installed if you don't have
 them already. (You can check with these commands: `ruby -v` and
 `gem -v`.) Then:
 
+0. Run `bundle`
 1. Clone this repository (`git clone git://github.com/masnick/offline-gists.git`)
 2. Rename `gists/manifest_example.yaml` to `gists/manifest.yaml` and add
    your gists.
