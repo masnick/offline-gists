@@ -17,7 +17,7 @@ task :get_new_gists do
   gists.each do |name, hash|
     unless File.directory?(name)
       puts "Initial pull of #{name}"
-      Git.clone("git@gist.github.com:#{hash}.git", name)
+      Git.clone("git@github.com:#{hash}.git", name)
     end
   end
 end
